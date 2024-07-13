@@ -1,0 +1,11 @@
+#format {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+#poster {
+  width: 200px;
+}
+.list img {
+  width: 200px;
+}
