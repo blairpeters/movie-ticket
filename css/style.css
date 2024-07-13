@@ -1,11 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&family=Tiny5&display=swap");
 #format {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
 }
 #poster {
-  width: 200px;
+  width: 400px;
+  height: 300px;
+  border-radius: 10%;
 }
 .list img {
   width: 200px;
+}
+.film-item {
+  cursor: pointer;
+  font-family: "Satisfy", cursive;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-family: "Tiny5", sans-serif;
+  box-shadow: 10px 10px 5px brown;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+#movie-details {
+  color: white;
+  font-family: "Satisfy", cursive;
 }

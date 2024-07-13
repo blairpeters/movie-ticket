@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     availableTickets: document.getElementById("available-tickets"),
     buyButton: document.getElementById("buy-ticket"),
   };
-
+  //fetch and display first movie
   fetch("http://localhost:3000/films/1")
     .then((response) => response.json())
     .then((data) => displayMovieDetails(data));
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-
+  // shows the sold out status
   function updateAvailableTickets(movie) {
     const availableTickets = movie.capacity - movie.tickets_sold;
     movieDetails.availableTickets.textContent = `Available Tickets: ${availableTickets}`;
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
       movieDetails.buyButton.disabled = true;
     }
   }
-
+  //add movie menu / display movie details
   const apiUrl = "http://localhost:3000/films";
   fetch(apiUrl)
     .then((res) => res.json())
@@ -45,10 +45,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const li = document.createElement("li");
         li.textContent = films.title;
         li.className = "film-item";
+        //add listener when clicked
         li.addEventListener("click", () => displayMovieDetails(films));
         list.appendChild(li);
       });
     });
 });
-
-// Add event listener to the newly created button
