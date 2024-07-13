@@ -4,8 +4,9 @@
   flex-direction: row-reverse;
   justify-content: space-between;
 }
+/*set poster to scale*/
 #poster {
-  width: 400px;
+  width: 450px;
   height: 300px;
   border-radius: 10%;
 }
@@ -30,4 +31,39 @@ body {
 #movie-details {
   color: white;
   font-family: "Satisfy", cursive;
+}
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  #format {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #movie-details,
+  #film-wrapper {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #buy-ticket {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  #buy-ticket {
+    font-size: 18px;
+  }
 }
