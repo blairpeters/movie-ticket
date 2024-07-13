@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     buyButton: document.getElementById("buy-ticket"),
   };
   //fetch and display first movie
-  fetch("http://localhost:3000/films/1")
+  fetch("https://flatdango-cinema-chatter.vercel.app/films/1")
     .then((response) => response.json())
     .then((data) => displayMovieDetails(data));
 
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
   //add movie menu / display movie details
-  const apiUrl = "http://localhost:3000/films";
+  const apiUrl = "https://flatdango-cinema-chatter.vercel.app/films";
   fetch(apiUrl)
     .then((res) => res.json())
     .then((films) => {
