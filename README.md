@@ -25,12 +25,12 @@ For this assessment, i'll be working on Flatdango. Flatiron Movie Theater is ope
 1. Once you open the project on your vs code you can go live.
 2. visit the following deployed links
 
-front end:`https://movie-ticket-y6io.vercel.app/`
-server: `https://flatdango-cinema-chatter.vercel.app/films`
+front end:(https://movie-ticket-y6io.vercel.app/)
+server: (https://flatdango-cinema-chatter.vercel.app/films)
 
 ## Author
 
-- This project was done by Tony Blair Maina.`(https://github.com/blairpeters)`
+- This project was done by Tony Blair Maina.(https://github.com/blairpeters)
 
 ## Contributor
 
