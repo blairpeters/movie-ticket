@@ -30,5 +30,8 @@ server: `https://flatdango-cinema-chatter.vercel.app/films`
 
 ## Author
 
-This project was done by Tony Blair Maina.
-https://github.com/blairpeters
+- This project was done by Tony Blair Maina.`(https://github.com/blairpeters)`
+
+## Contributor
+
+- [Bob Oyier] (https://github.com/oyieroyier) (Bug fixes)
